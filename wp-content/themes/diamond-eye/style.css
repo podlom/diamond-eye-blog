@@ -1,0 +1,16 @@
+/**
+ * Theme Name: Diamond Eye Glow Child theme
+ * Theme URI: https://www.famethemes.com/themes/glow/
+ * Description: Diamond Eye Glow Child Theme
+ * Author: Taras Shkodenko
+ * Author URI: https://www.shkodenko.com.ua
+ * Template: glow
+ * Version: 0.0.1
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Requires PHP: 7.4
+ * Tags: custom-background, custom-colors, custom-menu, featured-images, full-width-template, right-sidebar, sticky-post, threaded-comments, translation-ready, two-columns, theme-options
+ * Text Domain: diamond-eye-glow
+ */
+
+@import url("../glow/style.css");

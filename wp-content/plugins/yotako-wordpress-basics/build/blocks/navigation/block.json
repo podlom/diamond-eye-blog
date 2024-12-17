@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "yotako-block/navigation",
+  "version": "0.1.0",
+  "title": "Yotako-Navigation",
+  "category": "widgets",
+  "icon": "button",
+  "description": "Custom block to support yotako navigation",
+  "supports": {
+    "html": true
+  },
+  "textdomain": "navigation",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

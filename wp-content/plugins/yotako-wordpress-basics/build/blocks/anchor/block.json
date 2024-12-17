@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "yotako-block/anchor",
+  "version": "0.1.0",
+  "title": "Yotako-Anchor",
+  "category": "widgets",
+  "description": "Custom anchor to support link for all the elements",
+  "supports": {
+    "html": true
+  },
+  "textdomain": "anchor",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
