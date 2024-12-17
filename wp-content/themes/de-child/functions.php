@@ -239,3 +239,12 @@ function ts_theme_favicon() {
 	echo '<link rel="icon" href="' . get_template_directory_uri() . '/img/favicon.ico" type="image/x-icon">';
 }
 add_action('wp_head', 'ts_theme_favicon');
+
+// @see: https://www.advancedcustomfields.com/resources/shortcode/
+add_action( 'acf/init', 'set_acf_settings' );
+function set_acf_settings()
+{
+	if ( function_exists('acf_add_options_page') ) {
+		acf_update_setting( 'enable_shortcode', true );
+	}
+}
